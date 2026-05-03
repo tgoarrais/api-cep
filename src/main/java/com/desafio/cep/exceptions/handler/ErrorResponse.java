@@ -1,4 +1,4 @@
-package com.desafio.cep.controllers.responses;
+package com.desafio.cep.exceptions.handler;
 
 import java.time.LocalDateTime;
 

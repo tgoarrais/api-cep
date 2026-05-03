@@ -1,6 +1,8 @@
-package com.desafio.cep.exceptions;
+package com.desafio.cep.exceptions.handler;
 
-import com.desafio.cep.controllers.responses.ErrorResponse;
+import com.desafio.cep.exceptions.ExternalCepApiException;
+import com.desafio.cep.exceptions.InvalidCepException;
+import com.desafio.cep.exceptions.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

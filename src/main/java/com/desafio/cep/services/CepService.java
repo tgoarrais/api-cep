@@ -30,11 +30,6 @@ public class CepService {
     }
 
     private String normalizedCep(String cep) {
-
-        if (cep == null || cep.isBlank()) {
-            throw new InvalidCepException("Cep é Obrigatório");
-        }
-
         String normalizedCep = cep.replaceAll("\\D", "");
 
         if (normalizedCep.length() != 8) {
