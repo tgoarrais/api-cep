@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/wiremock/01310930"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "cep": "01310-930",
+      "logradouro": "Avenida Paulista",
+      "bairro": "Bela Vista",
+      "localidade": "São Paulo",
+      "uf": "SP"
+    }
+  }
+}
